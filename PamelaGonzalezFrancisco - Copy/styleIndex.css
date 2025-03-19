@@ -1,0 +1,121 @@
+/*
+Paleta:
+antiquewhite;<-----crema
+background-color: rgb(83, 34, 34);<----marron oscuro
+color: rgb(154, 96, 123);<---------rosa enlaces
+rgb(216, 150, 181);<----rosa botones
+*/
+
+
+*{
+    text-align: center;
+   
+}
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+
+#banner{
+    background-image: url(imagenes/otros/banner_Home.jpg);
+    height: 400px;
+    padding: 10px;
+}
+
+
+#banner p{
+    font-size:5vw ;
+    color: aliceblue;
+}
+/*----------------fav del mes-----------*/
+#favMes{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+
+}
+.favItem{
+    margin: 10px;
+    background-color: antiquewhite;
+    border-radius: 30px;
+}
+.favItem img{
+    
+    width: 20vw;
+    height: 30vw;
+    
+}
+.favItem img:hover{
+   
+    z-index: 1000;
+    height: 250px;
+    width: 200px;
+    background-color: rgb(238, 202, 156);
+   
+}
+/*------------------seccion equipo--------------*/
+.equipoItem {
+    display: flex;
+    background-color: antiquewhite;
+    margin: 50px;
+    border-radius: 30px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.equipoItem p{
+   
+    width: 100%;
+
+}
+.equipoItem img{
+    width: 300px;
+    
+    border-radius: 30px;
+}
+/*-------------------bloc-------------------*/
+#bloc{
+    background-color: rgb(154, 96, 123);;
+    border: 3px solid ;
+    margin: 80px;
+}
+.blocItem{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.blocItem img{
+ width: 100%;
+ height: 100%;
+ margin: 10px;
+ padding: 10px;
+ border-radius: 30px;
+}
+
+.blocItem p{
+    padding: 0;
+    text-align: justify;
+}
+/*----------------btn enlace directo whatsapp---------*/
+#btnStatico{
+    position: fixed;
+    z-index: 1000;
+    background-color: aquamarine;
+    border-radius: 50px;
+    padding: 20px 20px;
+    right: 10px;
+    bottom: 30px;
+    font-size: 30px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+#btnStatico img{
+    width: 50px;
+    height: 50px;
+}

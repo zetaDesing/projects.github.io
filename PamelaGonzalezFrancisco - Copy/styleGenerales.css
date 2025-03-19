@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
+
+*{
+    padding-inline: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Just Another Hand', serif;
+   
+}
+
+
+.titulo{
+    margin-top: 50px;
+    text-align: center; 
+    font-size: 3vw;
+}
+p{
+    font-size: 2vw;
+    margin: 2vw;
+    padding-inline: 6vw;
+}
+
+.botones{
+    border-radius: 30px;
+    border: 2px solid wheat;
+    margin: 50px;
+    padding: 20px 40px;
+}
+.botones a{
+    font-size: xx-large;
+    font-weight: bold;
+    color:  wheat;
+}
+.botones:hover{
+    background-color: rgb(230, 179, 113);
+}
+
+
+  /*------------inicio del header-------------*/
+#header{
+    background-color: rgb(83, 34, 34);
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+#logo a{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vw;
+    margin: 0;
+}
+
+#logo img{
+    width: 5vw;
+    height: auto;
+    margin-right: 10px;
+    
+}
+
+#menu{
+    
+    text-align: center;
+    float: left;
+    margin: 20px;
+    align-self: flex-start;
+    margin-left: auto;
+    margin-right: 0;
+    
+}
+
+#menu li{
+    display: inline;
+    margin: 15px;
+    font-size: 2vw;
+   
+}
+
+/*---------------------fin del header---------------*/
+/*-------------- tratado de enlaces del menu---------------*/
+a{
+    color: black;
+}
+#menu a:hover{
+    color: rgb(154, 96, 123);
+}
+/*--------------Fin tratado de enlaces del menu---------------*/
+
+/*-------------- tratado de banners---------------*/
+#banner{
+    width: 100%;
+    height: 800px; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+ #banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+/*------------------footer-------------------*/
+#footer{
+    background-color: rgb(83, 34, 34);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    text-align: center;
+    font-size: 2vw;
+    
+   
+}
+#logoFooter a img{
+    height: 5vw;
+
+}
+#footer a{
+    color: black;
+    margin: 10px;
+}
+#footer a:hover{
+    color: rgb(154, 96, 123);
+}
+.copyRigth{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+}
+
+#redesSociales{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+#redesSociales a {
+    height: 4vw;
+    line-height: 100px;
+
+  }
+#redesSociales a img{
+    margin-top: 10px;
+  width: 100%;
+  height: 100%;
+  
+   
+}
